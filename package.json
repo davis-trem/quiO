@@ -2,7 +2,7 @@
   "name": "quiodata",
   "version": "0.1.0",
   "private": true,
-  "website": "https://davis-trem.github.io/quiO",
+  "homepage": "https://davis-trem.github.io/quiO/",
   "dependencies": {
     "chart.js": "^2.7.2",
     "gh-pages": "^2.0.1",

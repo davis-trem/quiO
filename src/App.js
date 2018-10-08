@@ -5,12 +5,12 @@ import Visualizer from './components/Visualizer';
 class App extends Component {
     async getData() {
         const urls = [
-            'http://assignment.quio.com/bonding',
-            'http://assignment.quio.com/unbonding',
-            'http://assignment.quio.com/injections',
-            'http://assignment.quio.com/battery',
-            'http://assignment.quio.com/temperature',
-            'http://assignment.quio.com/errors'
+            'https://assignment.quio.com/bonding',
+            'https://assignment.quio.com/unbonding',
+            'https://assignment.quio.com/injections',
+            'https://assignment.quio.com/battery',
+            'https://assignment.quio.com/temperature',
+            'https://assignment.quio.com/errors'
         ];
 
         //fetches array of data
