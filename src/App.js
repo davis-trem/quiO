@@ -35,7 +35,7 @@ class App extends Component {
         return (
             <div className="App">
                 <header className="App-header">
-                    <p>QuiO Data: Click one label below to toggle it from graph</p>
+                    <p>QuiO Data: Click one label below to toggle it from graph.</p>
                     <Visualizer data={this.getData()} />
                     <p>Adjust Slider above to filter the time series.</p>
                 </header>
