@@ -1,7 +1,7 @@
 {
   "main.css": "/quiO/static/css/main.532fe3e7.chunk.css",
-  "main.js": "/quiO/static/js/main.292a23bc.chunk.js",
-  "main.js.map": "/quiO/static/js/main.292a23bc.chunk.js.map",
+  "main.js": "/quiO/static/js/main.c87d8ac2.chunk.js",
+  "main.js.map": "/quiO/static/js/main.c87d8ac2.chunk.js.map",
   "static/css/1.721fc11b.chunk.css": "/quiO/static/css/1.721fc11b.chunk.css",
   "static/js/1.56e9b6a6.chunk.js": "/quiO/static/js/1.56e9b6a6.chunk.js",
   "static/js/1.56e9b6a6.chunk.js.map": "/quiO/static/js/1.56e9b6a6.chunk.js.map",
@@ -10,6 +10,6 @@
   "static/css/main.532fe3e7.chunk.css.map": "/quiO/static/css/main.532fe3e7.chunk.css.map",
   "static/css/1.721fc11b.chunk.css.map": "/quiO/static/css/1.721fc11b.chunk.css.map",
   "index.html": "/quiO/index.html",
-  "precache-manifest.ed88315bdc69837642d3eb319ba844d4.js": "/quiO/precache-manifest.ed88315bdc69837642d3eb319ba844d4.js",
+  "precache-manifest.943511629b2b26b23e08430b37d736b2.js": "/quiO/precache-manifest.943511629b2b26b23e08430b37d736b2.js",
   "service-worker.js": "/quiO/service-worker.js"
 }
