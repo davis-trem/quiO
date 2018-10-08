@@ -5,12 +5,12 @@ import Visualizer from './components/Visualizer';
 class App extends Component {
     async getData() {
         const urls = [
-            'https://assignment.quio.com/bonding',
-            'https://assignment.quio.com/unbonding',
-            'https://assignment.quio.com/injections',
-            'https://assignment.quio.com/battery',
-            'https://assignment.quio.com/temperature',
-            'https://assignment.quio.com/errors'
+            'https://cors-anywhere.herokuapp.com/http://assignment.quio.com/bonding',
+            'https://cors-anywhere.herokuapp.com/http://assignment.quio.com/unbonding',
+            'https://cors-anywhere.herokuapp.com/http://assignment.quio.com/injections',
+            'https://cors-anywhere.herokuapp.com/http://assignment.quio.com/battery',
+            'https://cors-anywhere.herokuapp.com/http://assignment.quio.com/temperature',
+            'https://cors-anywhere.herokuapp.com/http://assignment.quio.com/errors'
         ];
 
         //fetches array of data
