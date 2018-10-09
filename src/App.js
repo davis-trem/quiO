@@ -5,12 +5,12 @@ import Visualizer from './components/Visualizer';
 class App extends Component {
     async getData() {
         const urls = [
-            'https://cors-anywhere.herokuapp.com/http://assignment.quio.com/bonding',
-            'https://cors-anywhere.herokuapp.com/http://assignment.quio.com/unbonding',
-            'https://cors-anywhere.herokuapp.com/http://assignment.quio.com/injections',
-            'https://cors-anywhere.herokuapp.com/http://assignment.quio.com/battery',
-            'https://cors-anywhere.herokuapp.com/http://assignment.quio.com/temperature',
-            'https://cors-anywhere.herokuapp.com/http://assignment.quio.com/errors'
+            'http://assignment.quio.com/bonding',
+            'http://assignment.quio.com/unbonding',
+            'http://assignment.quio.com/injections',
+            'http://assignment.quio.com/battery',
+            'http://assignment.quio.com/temperature',
+            'http://assignment.quio.com/errors'
         ];
 
         //fetches array of data
@@ -35,7 +35,7 @@ class App extends Component {
         return (
             <div className="App">
                 <header className="App-header">
-                    <p>QuiO Data: Click one label below to toggle it from graph.</p>
+                    <p>QuiO Data: Click on label below to toggle it from graph.</p>
                     <Visualizer data={this.getData()} />
                     <p>Adjust Slider above to filter the time series.</p>
                 </header>
