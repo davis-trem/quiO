@@ -30,10 +30,9 @@ class Visualizer extends Component {
                     borderWidth: 3,
                     pointRadius: 2,
                 });
-                this.setState({fullData: [...fullData]});
             }
            chartData.datasets = fullData;
-           this.setState({chartData});
+           this.setState({fullData, chartData});
         });
     }
 
